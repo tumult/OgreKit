@@ -172,7 +172,7 @@ static NSString	*OgreAFPCAttributedReplaceHistoryKey = @"AFPC Attributed Replace
 - (void)setDefaultFontSize:(NSTextView*)textView
 {
     NSFont *font = [textView font];
-    font = [NSFont fontWithDescriptor:[font fontDescriptor] size:18];
+    font = [NSFont fontWithDescriptor:[font fontDescriptor] size:[NSFont systemFontSize]];
     [textView setFont:font];
 }
 
