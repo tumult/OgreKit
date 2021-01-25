@@ -755,6 +755,8 @@
 		4DF530BE0915221700475575 /* ReplaceWithAttributesTest-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "ReplaceWithAttributesTest-Info.plist"; path = "ReplaceWithAttributesTest/ReplaceWithAttributesTest-Info.plist"; sourceTree = "<group>"; };
 		8DC2EF5B0486A6940098B216 /* OgreKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OgreKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2F7E79907B2D74100F64583 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		F61F57FB25BF5E5200444CB1 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/OgreAPFCLocalizable.strings"; sourceTree = "<group>"; };
+		F61F57FC25BF5E5200444CB1 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/OgreTextFinderLocalizable.strings"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1782,6 +1784,7 @@
 				de,
 				es,
 				en,
+				"zh-Hans",
 			);
 			mainGroup = 0867D691FE84028FC02AAC07 /* OgreKit */;
 			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
@@ -2148,6 +2151,7 @@
 				4D00A9B2257C94EB000F6F83 /* de */,
 				4D00A9B5257C94EE000F6F83 /* es */,
 				4D00A9BC257C94F2000F6F83 /* en */,
+				F61F57FB25BF5E5200444CB1 /* zh-Hans */,
 			);
 			name = OgreAPFCLocalizable.strings;
 			path = FindPanel/Resources;
@@ -2191,6 +2195,7 @@
 				4D00A9B4257C94EB000F6F83 /* de */,
 				4D00A9B7257C94EF000F6F83 /* es */,
 				4D00A9BD257C94F3000F6F83 /* en */,
+				F61F57FC25BF5E5200444CB1 /* zh-Hans */,
 			);
 			name = OgreTextFinderLocalizable.strings;
 			path = FindPanel/Resources;
